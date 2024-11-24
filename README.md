@@ -5,6 +5,7 @@ Package for masking a given card number
 ### Masks the card number
 `string maskedCardNumber = CardNumber.MaskCardNumber("5555666677778884", 4, 8, '*');`
 
+
 `"5555666677778884"` => Card number to mask
 
 `4` => Start position of mask 
