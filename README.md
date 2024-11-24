@@ -1,2 +1,2 @@
 # MaskCardNumber
-Mask card number
+Package for masking a given card number
