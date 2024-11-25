@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>CardNumber</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>DemoName0123</Authors>
+        <Company>DemoCompany0123</Company>
+        <Description>This is a NuGet package to mask a given card number</Description>
+        <PackageTags>cardNumber;mask</PackageTags>
+        <RepositoryUrl>https://github.com/MetodiNakov0/MaskCardNumber</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>
